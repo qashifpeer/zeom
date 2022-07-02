@@ -1,0 +1,11 @@
+@use "../custom" as *;
+// @use "../components/mixin" as *;
+
+
+.header{
+    @include media-breakpoint-down(sm){
+        display:none;
+    }
+
+
+}
