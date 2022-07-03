@@ -20523,6 +20523,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-size: 13px;
+  text-align: left;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -20574,4 +20579,134 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+.row0 {
+  border-bottom: 2px solid;
+  background-color: #274472;
+  border-color: #5280ca;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+
+#intro {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+#intro ul {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-color: #84b533;
+}
+
+ul.nospace,
+ol.nospace {
+  list-style: none;
+}
+
+.nospace {
+  margin: 0;
+  padding: 0;
+}
+
+#intro li {
+  display: table-cell;
+  width: 20%;
+  height: 100%;
+  border: solid;
+  border-width: 0 1px;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#intro li a {
+  padding: 20px 10px;
+  background-color: inherit;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #a0bdeb;
+}
+
+#intro .cc.circle {
+  color: #274472;
+  background-color: #FFFFFF;
+}
+
+#intro .cc.circle:hover {
+  background-color: #a0bdeb;
+}
+
+.cc.circle {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 15px 0 0 0;
+  font-size: 18px;
+  line-height: 18px;
+  box-sizing: border-box;
+}
+
+.circle {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.push-30 {
+  margin-bottom: 30px;
+}
+
+#intro li {
+  width: 17%;
+  text-align: center;
+}
+
+#intro li a {
+  padding: 20px 10px;
+}
+
+h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 615px) {
+  #intro li {
+    border-width: 0 1px 1px 1px;
+    border-color: inherit;
+    display: block;
+    width: 100%;
+  }
 }
