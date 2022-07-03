@@ -11,11 +11,7 @@
     </head>
     <body>
 
-        <!-- Header-->
-        <section class="header">
-
-            <h2> This is the header</h2>
-        </section>
+        @include('frontend.layouts.header')
 
 
 

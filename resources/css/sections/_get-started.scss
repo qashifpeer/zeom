@@ -1,0 +1,21 @@
+@use "../custom" as *;
+// @use "../components/mixin" as *;
+
+
+.logo-jk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 0;
+}
+
+.brand-box{
+    padding: 0;
+}
+
+
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }

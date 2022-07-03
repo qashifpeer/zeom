@@ -1,0 +1,38 @@
+@use '../custom' as *;
+
+p{
+    margin:0;
+    padding: 0;
+}
+
+
+//DISPLAY-1
+
+.display-1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+
+}
+
+.display-3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+
+.display-4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    align-items: flex-end;
+}
+
+

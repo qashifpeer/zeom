@@ -3,7 +3,10 @@
 
 
 .header{
-    @include media-breakpoint-down(sm){
+    // @include media-breakpoint-down(sm){
+    //     display:none;
+    // }
+    @include media-breakpoint-down(lg){
         display:none;
     }
 
