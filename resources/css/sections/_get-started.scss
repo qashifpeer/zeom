@@ -18,9 +18,12 @@
     align-items: center;
 }
 
-//SECTION INTRO
 
-.wrapper {
+
+//*********************************************************//
+// ************** SECTION INTRO ***************************//
+
+body.wrapper {
     display: block;
     width: 100%;
     margin: 0;
@@ -148,6 +151,57 @@ h6 {
     line-height: normal;
 }
 
+
+//*********************************************************//
+// ************** SECTION MESSAGES BLOCK ***************************//
+.row1{
+
+    border-bottom: 2px solid;
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+
+}
+
+
+
+#message-block ul{
+    display:table;
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #ffffff;
+}
+
+#message-block li{
+    width: 45%;
+    display: table-cell;
+    height: 100%;
+    border: solid;
+    border-width: 0 1px;
+    border-color: inherit;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+}
+
+
+
+
+
+
+//*********************************************************//
+// ************** MEDIA QUIRES***************************//
+
+@media only screen and (min-width: 1140px){
+    html.boxed .wrapper, #intro, #message-block, .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 615px) {
     #intro li {
         border-width: 0 1px 1px 1px;
@@ -156,3 +210,4 @@ h6 {
         width: 100%;
     }
 }
+
